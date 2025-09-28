@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume</title>
+    
+    <style>
+       
+        /* A4 Page Setup */
+        body {
+            background: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap; /* allows multiple pages if needed */
+        }
+        .page {
+            background: #fff;
+            width: 210mm;        /* A4 width */
+            min-height: 297mm;   /* A4 height */
+            padding: 25mm;       /* A4 margin */
+            margin-bottom: 20px; /* space between pages */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        @media print {
+            body { background: none; padding: 0; }
+            .page { 
+                box-shadow: none; 
+                margin: 0; 
+                width: auto; 
+                min-height: auto; 
+                padding: 25mm; 
+                page-break-after: always; /* each .page is one A4 */
+            }
+        }
+        
+        .line{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .per_info{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .edu_back{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .work_exp{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .certif{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .general{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .lang_pro{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .achieve{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .int_skill{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        .reco{
+            background-color: aqua;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+ <div class="page">
+    <img src="./assets/images/dilshat.JPG" alt="" style="width: 150px;"> 
+    <span style="margin-left: 100px; font-weight: bolder; font-size: 20px;">Dilshat YALKAPOV</span>
+    <p class="line">OBJECTIVE</p>
+    
+    <p>I look forward to joining a modern school with excellent facilities that believes in nurturing
+         talent and supporting its staff to learn and improve every step.</p>
+    <p class="per_info">PERSONAL INFORMATION</p>
+    
+    <p>Name: Dilshat Yalkapov</p>
+    <p>DOB: 20.02.1993</p>
+    <p>Email: dilshatali@gmail.com</p>
+    <p>Tel: +85587628858</p>
+
+    <p class="edu_back">EDUCATION BACKGROUND</p>
+    
+    <ul>
+        <li><h4>Bachelor’s degree (2011 – 2016) (Turkey)</h4>
+            <ul>
+                <li>Marmara University, Biology Education </li>
+            </ul>
+
+        </li>
+    </ul>
+    <ul>
+        <li><h4>Master’s Degree (2015 – 2016) (Turkey)</h4>
+            <ul>
+                <li>Marmara University, Pedagogy in Education </li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <ul>
+        <li><h4>Master’s Degree (2022 – 2024) (United States)</h4>
+            <ul>
+                <li>North American University, Software engineer  </li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <p class="work_exp">WORKING EXPERIENCES</p>
+
+    <ol>
+        <li>1 Jul 2023 – 9 Sept 2023: Science and Biology teacher at Harmony Science Academy in Beaumont, USA</li>
+        <li>1 Jan 2018 – 30 Jun 2023: Science teacher at Paragon International School, Cambodia </li>
+        <li>11 Oct 2015 – 2016 May 11: Internship at Istanbul Anadolu High School, Turkey</li>
+        <li>24 Feb 2014 – 2014 Oct 26: Internship at Cerrahpasa Medical Faculty of Molecular Genetics, Turkey </li>
+        <li>07 Sep 2013– 2015 25 May: Part – Time Teacher at Zirve Primary school (Math and Science), Turkey      </li>
+        <li>12 Aug 2010 – 28 May 2011: Assistant teacher at Turkmen-Turkish High School, Turkmenistan              </li>
+    </ol>
+
+    <p class="certif">CERTIFICATES</p>
+    <ul>
+        <li>Extension Cambridge primary science (Cambridge Assessment International Education)</li>
+        <li>Certificate of Completion - Units 1,2,3,4,5,6,7_ Deep learning in the classroom</li>
+        <li>Certificate of Completion -2022 Unit 1,2,3_ Leading differentiation</li>
+        <li>Certificate of Leadership Skills in Character Education Seminar Series</li>
+        <li>Understanding Cancer Metastasis (Coursera)</li>
+        <li>The Science of Stem Cells (Coursera)</li>
+        <li>Teaching for success Understanding child protection </li>
+        <li>Certificate of Completion - 2022    1,2,3,4 Curriculum planning to support effective differentiation and catch-up</li>
+        <li>International webinar on youth, morals, and values education.</li>
+        <li>Certificate of participation in the seminar “Help People to Fight with Microbiological Disease”</li>
+    </ul>
+
+    <p class="general">GENERAL</p>
+
+    <p>Mathematics (Bronze medal holder in regional Math competition)</p>
+    <p>Physical education and sports</p>
+    <p>Comprehensive computer knowledge and skills</p>
+    <p>Java programming language </p>
+
+    <p class="lang_pro">LANGUAGE PROFICIENCY</p>
+    <ul>
+        <li>English: (Advanced) </li>
+        <li>Russian: (Intermediate)</li>
+        <li>Turkmen: Native</li>
+        <li>Uzbek: (Advanced)</li>
+        <li>Turkish: (Advanced)</li>
+    </ul>
+
+    <p class="achieve">ACHIEVEMENTS</p>
+
+    <ul>
+        <li><h4>January 2008:</h4></li>
+        <ul>
+            <li>1 Gold and 2 Bronze Medals in the wrestling of Judo in Turkmenistan </li>
+        </ul>
+        <li><h4>May 2014: </h4></li>
+        <ul>
+            <li>Bronze Medal from Football tournament. Istanbul, Turkey</li>
+        </ul>
+
+    </ul>
+
+    <p class="int_skill">INTERESTS/SKILLS</p>
+    <p>I play football/basketball/video games, swimming.	</p>
+    <p>Interpersonal skills, communication, coordination, flexibility.</p>
+
+    <p class="reco"> RECOMMENDATION</p>
+
+    <table border="1" cellspacing="0"   cellpadding="5" style="width: 100%;">
+        
+        
+        <tr>
+            <td> <strong>Akbar Hamraev</strong> <br>
+                 Principal of Paragon ISC<br>
+                <a href="ahamzaev@paragonisc.edu.kh">ahamzaev@paragonisc.edu.kh</a><br>
+                Num: +855 96 232 4770
+            </td>
+
+            <td> <strong>Anamika Sharma</strong> <br>
+                Former Academic coordinator of Paragon ISC<br>
+                <a href="principal@blis.edu.kh">principal@blis.edu.kh</a><br>
+                Num: 061400700
+            </td>
+        </tr>
+
+        <tr>
+            <td> <strong>Assoc.Prof.Dr. Gulsah COBANOGLU</strong> <br>
+                        Marmara University Faculty of Science and Arts Dept. of Biology<br>
+                 <a href="gcoban@marmara.edu.tr">gcoban@marmara.edu.tr</a><br>
+                 Num: 
+            </td>
+            
+
+            <td> <strong>Prof.Dr. Serhat Irez</strong> <br>
+                 Marmara University Ataturk Faculty of Education 
+                    Dep. of Sci. and Math Education, Biology Education<br>
+                 <a href="sirez@marmara.edu.tr  ">sirez@marmara.edu.tr  </a><br>
+                 Num:(216)3494951/1300 
+            </td>
+        </tr>
+        
+
+
+    </table>
+ </div>
+</body>
+</html>
